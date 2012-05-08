@@ -6,3 +6,5 @@ end
 
 tmp = File.open('tmp.txt', 'r') {|f| f.read}
 puts tmp[0]
+
+puts tmp.reverse
