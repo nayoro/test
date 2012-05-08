@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "hoge"
+%w(hoge mohe soso tete).each do |e|
+  puts e
+end
