@@ -8,7 +8,7 @@ end
   puts e if e % 17 == 0
 end
 
-"hoge".each_chars do |e|
+"hoge".each_char do |e|
   puts e
 end
 
